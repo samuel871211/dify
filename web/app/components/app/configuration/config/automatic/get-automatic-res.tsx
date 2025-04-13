@@ -48,7 +48,7 @@ export type IGetAutomaticResProps = {
 }
 
 const TryLabel: FC<{
-  Icon: any
+  Icon: any // todo-yusheng
   text: string
   onClick: () => void
 }> = ({ Icon, text, onClick }) => {

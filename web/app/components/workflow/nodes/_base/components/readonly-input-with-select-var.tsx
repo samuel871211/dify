@@ -24,6 +24,7 @@ const ReadonlyInputWithSelectVar: FC<Props> = ({
 }) => {
   const { getBeforeNodesInSameBranchIncludeParent } = useWorkflow()
   const availableNodes = getBeforeNodesInSameBranchIncludeParent(nodeId)
+  // todo-yusheng
   const startNode = availableNodes.find((node: any) => {
     return node.data.type === BlockEnum.Start
   })

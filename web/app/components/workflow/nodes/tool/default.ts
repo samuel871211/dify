@@ -21,6 +21,7 @@ const nodeDefault: NodeDefault<ToolNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: ToolNodeType, t: any, moreDataForCheckValid: any) {
     const { toolInputsSchema, toolSettingSchema, language, notAuthed } = moreDataForCheckValid
     let errorMessages = ''

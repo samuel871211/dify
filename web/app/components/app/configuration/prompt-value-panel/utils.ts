@@ -1,5 +1,6 @@
 import type { PromptVariable } from '@/models/debug'
 
+// todo-yusheng
 export function replaceStringWithValues(str: string, promptVariables: PromptVariable[], inputs: Record<string, any>) {
   return str.replace(/\{\{([^}]+)\}\}/g, (match, key) => {
     const name = inputs[key]

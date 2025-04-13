@@ -75,7 +75,7 @@ const useConfig = (id: string, payload: LLMNodeType) => {
   })()
 
   const shouldShowContextTip = !hasSetBlockStatus.context && inputs.context.enabled
-
+  // todo-yusheng
   const appendDefaultPromptConfig = useCallback((draft: LLMNodeType, defaultConfig: any, passInIsChatMode?: boolean) => {
     const promptTemplates = defaultConfig.prompt_templates
     if (passInIsChatMode === undefined ? isChatModel : passInIsChatMode) {

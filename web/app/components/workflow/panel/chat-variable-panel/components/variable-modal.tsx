@@ -76,7 +76,7 @@ const ChatVariableModal = ({
   const varList = useStore(s => s.conversationVariables)
   const [name, setName] = React.useState('')
   const [type, setType] = React.useState<ChatVarType>(ChatVarType.String)
-  const [value, setValue] = React.useState<any>()
+  const [value, setValue] = React.useState<any>() // todo-yusheng
   const [objectValue, setObjectValue] = React.useState<ObjectValueItem[]>([DEFAULT_OBJECT_VALUE])
   const [editorContent, setEditorContent] = React.useState<string>()
   const [editInJSON, setEditInJSON] = React.useState(false)

@@ -19,6 +19,7 @@ const nodeDefault: NodeDefault<DocExtractorNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: DocExtractorNodeType, t: any) {
     let errorMessages = ''
     const { variable_selector: variable } = payload

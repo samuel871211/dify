@@ -36,7 +36,7 @@ type BeforeRunFormProps = {
   forms: FormProps[]
   showSpecialResultPanel?: boolean
 } & Partial<SpecialResultPanelProps>
-
+// todo-yusheng
 function formatValue(value: string | any, type: InputVarType) {
   if (type === InputVarType.number)
     return Number.parseFloat(value)

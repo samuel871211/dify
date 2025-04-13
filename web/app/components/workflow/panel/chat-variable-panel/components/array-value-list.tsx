@@ -10,7 +10,7 @@ import Input from '@/app/components/base/input'
 
 type Props = {
   isString: boolean
-  list: any[]
+  list: any[] // todo-yusheng
   onChange: (list: any[]) => void
 }
 

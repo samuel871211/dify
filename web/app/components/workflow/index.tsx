@@ -152,7 +152,7 @@ const Workflow: FC<WorkflowProps> = memo(({
   const [secretEnvList, setSecretEnvList] = useState<EnvironmentVariable[]>([])
 
   const { eventEmitter } = useEventEmitterContextContext()
-
+  // todo-yusheng
   eventEmitter?.useSubscription((v: any) => {
     if (v.type === WORKFLOW_DATA_UPDATE) {
       setNodes(v.payload.nodes)

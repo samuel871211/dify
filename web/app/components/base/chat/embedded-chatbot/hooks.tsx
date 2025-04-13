@@ -37,6 +37,7 @@ import { TransferMethod } from '@/types/app'
 import { addFileInfos, sortAgentSorts } from '@/app/components/tools/utils'
 import { noop } from 'lodash-es'
 
+// todo-yusheng
 function getFormattedChatList(messages: any[]) {
   const newChatList: ChatItem[] = []
   messages.forEach((item) => {

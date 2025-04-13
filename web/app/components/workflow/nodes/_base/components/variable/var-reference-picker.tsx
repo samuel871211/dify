@@ -109,7 +109,7 @@ const VarReferencePicker: FC<Props> = ({
     passedInAvailableNodes,
     filterVar,
   })
-  const startNode = availableNodes.find((node: any) => {
+  const startNode = availableNodes.find((node: any) => { // todo-yusheng
     return node.data.type === BlockEnum.Start
   })
 

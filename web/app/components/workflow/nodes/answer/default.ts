@@ -20,6 +20,7 @@ const nodeDefault: NodeDefault<AnswerNodeType> = {
       : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: AnswerNodeType, t: any) {
     let errorMessages = ''
     const { answer } = payload

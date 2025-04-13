@@ -130,6 +130,7 @@ export const AgentStrategy = memo((props: AgentStrategyProps) => {
               />
               <InputNumber
                 value={value}
+                // todo-yusheng
                 // TODO: maybe empty, handle this
                 onChange={onChange as any}
                 defaultValue={defaultValue}

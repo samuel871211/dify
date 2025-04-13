@@ -8,7 +8,7 @@ import { RiArrowDownSLine } from '@remixicon/react'
 const UserInput = () => {
   const { t } = useTranslation()
   const [expanded, setExpanded] = useState(true)
-  const variables: any = []
+  const variables: any = [] // todo-yusheng
 
   if (!variables.length)
     return null

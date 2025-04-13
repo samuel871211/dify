@@ -112,7 +112,7 @@ const useConfig = (id: string, payload: QuestionClassifierNodeType) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [defaultConfig])
 
-  const handleClassesChange = useCallback((newClasses: any) => {
+  const handleClassesChange = useCallback((newClasses: any) => { // todo-yusheng
     const newInputs = produce(inputs, (draft) => {
       draft.classes = newClasses
       draft._targetBranches = newClasses

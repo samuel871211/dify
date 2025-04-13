@@ -20,7 +20,7 @@ import { getProcessedFilesFromResponse } from '@/app/components/base/file-upload
 import type { IChatItem } from '@/app/components/base/chat/chat/type'
 import { buildChatItemTree, getThreadMessages } from '@/app/components/base/chat/utils'
 
-function getFormattedChatList(messages: any[]) {
+function getFormattedChatList(messages: any[]) { // todo-yusheng
   const res: ChatItem[] = []
   messages.forEach((item: any) => {
     const questionFiles = item.message_files?.filter((file: any) => file.belongs_to === 'user') || []

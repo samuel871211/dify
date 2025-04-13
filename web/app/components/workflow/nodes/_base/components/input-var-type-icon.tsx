@@ -17,7 +17,7 @@ const getIcon = (type: InputVarType) => {
     [InputVarType.number]: RiHashtag,
     [InputVarType.singleFile]: RiFileList2Line,
     [InputVarType.multiFiles]: RiFileCopy2Line,
-  } as any)[type] || RiTextSnippet
+  } as any)[type] || RiTextSnippet // todo-yusheng
 }
 
 const InputVarTypeIcon: FC<Props> = ({

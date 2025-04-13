@@ -37,7 +37,7 @@ function useOutputVarList<T>({
   const { handleOutVarRenameChange, isVarUsedInNodes, removeUsedVarInNodes } = useWorkflow()
 
   const handleVarsChange = useCallback((newVars: OutputVar, changedIndex?: number, newKey?: string) => {
-    const newInputs = produce(inputs, (draft: any) => {
+    const newInputs = produce(inputs, (draft: any) => { // todo-yusheng
       draft[varKey] = newVars
 
       if ((inputs as CodeNodeType).type === BlockEnum.Code && (inputs as CodeNodeType).error_strategy === ErrorHandleTypeEnum.defaultValue && varKey === 'outputs')

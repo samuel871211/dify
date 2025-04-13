@@ -18,6 +18,7 @@ const nodeDefault: NodeDefault<TemplateTransformNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: TemplateTransformNodeType, t: any) {
     let errorMessages = ''
     const { template, variables } = payload

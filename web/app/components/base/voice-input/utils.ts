@@ -8,7 +8,7 @@ if (globalThis) {
   ;(globalThis as any).Lame = Lame
   ;(globalThis as any).BitStream = BitStream
 }
-
+// todo-yusheng
 export const convertToMp3 = (recorder: any) => {
   const wav = lamejs.WavHeader.readHeader(recorder.getWAV())
   const { channels, sampleRate } = wav

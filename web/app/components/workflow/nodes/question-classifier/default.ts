@@ -50,6 +50,7 @@ const nodeDefault: NodeDefault<QuestionClassifierNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: QuestionClassifierNodeType, t: any) {
     let errorMessages = ''
     if (!errorMessages && (!payload.query_variable_selector || payload.query_variable_selector.length === 0))

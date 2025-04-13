@@ -60,7 +60,7 @@ const useConfig = (id: string, payload: ToolNodeType) => {
     setTrue: showSetAuthModal,
     setFalse: hideSetAuthModal,
   }] = useBoolean(false)
-
+  // todo-yusheng
   const handleSaveAuth = useCallback(async (value: any) => {
     await updateBuiltInToolCredential(currCollection?.name as string, value)
 

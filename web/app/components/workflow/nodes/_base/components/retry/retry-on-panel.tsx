@@ -78,6 +78,7 @@ const RetryOnPanel = ({
                   type='number'
                   wrapperClassName='w-[80px]'
                   value={retry_config?.max_retries || 3}
+                  // todo-yusheng
                   onChange={e => handleMaxRetriesChange(e.target.value as any)}
                   min={1}
                   max={10}

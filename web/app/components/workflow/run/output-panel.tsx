@@ -11,7 +11,7 @@ import { getProcessedFilesFromResponse } from '@/app/components/base/file-upload
 
 type OutputPanelProps = {
   isRunning?: boolean
-  outputs?: any
+  outputs?: any // todo-yusheng
   error?: string
   height?: number
 }

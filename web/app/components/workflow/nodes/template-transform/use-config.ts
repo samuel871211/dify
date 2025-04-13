@@ -34,7 +34,7 @@ const useConfig = (id: string, payload: TemplateTransformNodeType) => {
   })
 
   const handleVarListChange = useCallback((newList: Variable[]) => {
-    const newInputs = produce(inputsRef.current, (draft: any) => {
+    const newInputs = produce(inputsRef.current, (draft: any) => { // todo-yusheng
       draft.variables = newList
     })
     setInputs(newInputs)

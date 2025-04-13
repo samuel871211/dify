@@ -25,6 +25,7 @@ const nodeDefault: NodeDefault<LoopNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: LoopNodeType, t: any) {
     let errorMessages = ''
 

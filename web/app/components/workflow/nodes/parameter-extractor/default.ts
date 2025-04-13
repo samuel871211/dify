@@ -30,6 +30,7 @@ const nodeDefault: NodeDefault<ParameterExtractorNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: ParameterExtractorNodeType, t: any) {
     let errorMessages = ''
     if (!errorMessages && (!payload.query || payload.query.length === 0))

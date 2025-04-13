@@ -6,7 +6,7 @@ import ObjectValueItem from '@/app/components/workflow/panel/chat-variable-panel
 
 type Props = {
   list: any[]
-  onChange: (list: any[]) => void
+  onChange: (list: any[]) => void // todo-yusheng
 }
 
 const ObjectValueList: FC<Props> = ({

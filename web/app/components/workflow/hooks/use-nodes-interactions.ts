@@ -455,7 +455,7 @@ export const useNodesInteractions = () => {
       })
     }
   }, [store, workflowStore, getNodesReadOnly])
-
+  // todo-yusheng
   const handleNodeConnectEnd = useCallback<OnConnectEnd>((e: any) => {
     if (getNodesReadOnly())
       return

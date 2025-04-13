@@ -125,7 +125,7 @@ const ChatItem: FC<ChatItemProps> = ({
     if (v.type === APP_CHAT_WITH_MULTIPLE_MODEL_RESTART)
       handleRestart()
   })
-
+  // todo-yusheng
   const allToolIcons = useMemo(() => {
     const icons: Record<string, any> = {}
     modelConfig.agentConfig.tools?.forEach((item: any) => {

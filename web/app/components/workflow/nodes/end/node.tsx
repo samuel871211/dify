@@ -23,7 +23,7 @@ const Node: FC<NodeProps<EndNodeType>> = ({
   const availableNodes = getBeforeNodesInSameBranch(id)
   const { getCurrentVariableType } = useWorkflowVariables()
   const isChatMode = useIsChatMode()
-
+  // todo-yusheng
   const startNode = availableNodes.find((node: any) => {
     return node.data.type === BlockEnum.Start
   })

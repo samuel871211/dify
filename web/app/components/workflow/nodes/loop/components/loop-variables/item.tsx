@@ -21,6 +21,7 @@ const Item = ({
   handleUpdateLoopVariable,
 }: ItemProps) => {
   const { t } = useTranslation()
+  // todo-yusheng
   const handleUpdateItemLabel = useCallback((e: any) => {
     handleUpdateLoopVariable(item.id, { label: e.target.value })
   }, [item.id, handleUpdateLoopVariable])

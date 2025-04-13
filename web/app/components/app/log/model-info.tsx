@@ -25,7 +25,7 @@ const PARAM_MAP = {
 }
 
 type Props = {
-  model: any
+  model: any // todo-yusheng
 }
 
 const ModelInfo: FC<Props> = ({

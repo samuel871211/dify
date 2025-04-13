@@ -44,7 +44,7 @@ export type ChatProps = {
   onStopResponding?: () => void
   noChatInput?: boolean
   onSend?: OnSend
-  inputs?: Record<string, any>
+  inputs?: Record<string, any> // todo-yusheng
   inputsForm?: InputForm[]
   onRegenerate?: OnRegenerate
   chatContainerClassName?: string

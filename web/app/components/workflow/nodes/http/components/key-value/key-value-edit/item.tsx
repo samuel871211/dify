@@ -49,7 +49,7 @@ const KeyValueItem: FC<Props> = ({
 
   const handleChange = useCallback((key: string) => {
     return (value: string | ValueSelector) => {
-      const newPayload = produce(payload, (draft: any) => {
+      const newPayload = produce(payload, (draft: any) => { // todo-yusheng
         draft[key] = value
       })
       onChange(newPayload)

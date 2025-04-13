@@ -61,7 +61,7 @@ const InputsPanel = ({ onRun }: Props) => {
     return data
   }, [fileSettings?.image?.enabled, startVariables])
 
-  const handleValueChange = (variable: string, v: any) => {
+  const handleValueChange = (variable: string, v: any) => { // todo-yusheng
     const {
       inputs,
       setInputs,

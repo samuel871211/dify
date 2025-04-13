@@ -28,7 +28,7 @@ const VariableModal = ({
   const envSecrets = useStore(s => s.envSecrets)
   const [type, setType] = React.useState<'string' | 'number' | 'secret'>('string')
   const [name, setName] = React.useState('')
-  const [value, setValue] = React.useState<any>()
+  const [value, setValue] = React.useState<any>() // todo-yusheng
 
   const checkVariableName = (value: string) => {
     const { isValid, errorMessageKey } = checkKeys([value], false)

@@ -13,7 +13,7 @@ function useVarList<T>({
   varKey = 'variables',
 }: Params<T>) {
   const handleVarListChange = useCallback((newList: Variable[] | string) => {
-    const newInputs = produce(inputs, (draft: any) => {
+    const newInputs = produce(inputs, (draft: any) => { // todo-yusheng
       draft[varKey] = newList as Variable[]
     })
     setInputs(newInputs)

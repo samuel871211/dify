@@ -99,7 +99,7 @@ const useConfig = (id: string, payload: ParameterExtractorNodeType) => {
       setInputs(newInputs)
     },
   })
-
+  // todo-yusheng
   const appendDefaultPromptConfig = useCallback((draft: ParameterExtractorNodeType, defaultConfig: any, _passInIsChatMode?: boolean) => {
     const promptTemplates = defaultConfig.prompt_templates
     if (!isChatModel) {

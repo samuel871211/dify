@@ -91,7 +91,7 @@ const Panel: FC<NodePanelProps<ParameterExtractorNodeType>> = ({
 
     if (isVisionModel && data.vision?.enabled && data.vision?.configs?.variable_selector) {
       const currentVariable = findVariableWhenOnLLMVision(data.vision.configs.variable_selector, availableVisionVars)
-
+      // todo-yusheng
       forms.push(
         {
           label: t('workflow.nodes.llm.vision')!,

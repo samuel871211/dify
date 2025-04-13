@@ -64,7 +64,7 @@ const checkValidFns: Record<BlockEnum, Function> = {
   [BlockEnum.Iteration]: checkIterationValid,
   [BlockEnum.DocExtractor]: checkDocumentExtractorValid,
   [BlockEnum.Loop]: checkLoopValid,
-} as any
+} as any // todo-yusheng
 
 type Params<T> = {
   id: string

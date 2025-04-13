@@ -47,7 +47,7 @@ const ConversationVariableModal = ({
         params: { conversation_id: conversationID },
       })
       if (res.data.length > 0) {
-        const valueMap = res.data.reduce((acc: any, cur) => {
+        const valueMap = res.data.reduce((acc: any, cur) => { // todo-yusheng
           acc[cur.id] = cur.value
           return acc
         }, {})

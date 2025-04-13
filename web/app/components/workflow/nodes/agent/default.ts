@@ -57,6 +57,7 @@ const nodeDefault: NodeDefault<AgentNodeType> = {
         }
         // check form of tool
         else {
+          // todo-yusheng
           const schemas = toolValue.schemas || []
           const userSettings = toolValue.settings
           const reasoningConfig = toolValue.parameters

@@ -29,6 +29,7 @@ export type Props = {
   isJSONStringifyBeauty?: boolean
   height?: number
   isInNode?: boolean
+  // todo-yusheng
   onMount?: (editor: any, monaco: any) => void
   noWrapper?: boolean
   isExpand?: boolean

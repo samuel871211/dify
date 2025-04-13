@@ -33,7 +33,7 @@ type ItemProps = {
   value: string
   isChecked: boolean
   description: string
-  Icon: any
+  Icon: any // todo-yusheng
   onClick: (value: string) => void
 }
 

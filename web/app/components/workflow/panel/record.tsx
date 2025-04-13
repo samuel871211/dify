@@ -8,7 +8,7 @@ const Record = () => {
   const historyWorkflowData = useStore(s => s.historyWorkflowData)
   const { handleUpdateWorkflowCanvas } = useWorkflowUpdate()
 
-  const handleResultCallback = useCallback((res: any) => {
+  const handleResultCallback = useCallback((res: any) => { // todo-yusheng
     const graph: WorkflowDataUpdater = res.graph
     handleUpdateWorkflowCanvas({
       nodes: graph.nodes,

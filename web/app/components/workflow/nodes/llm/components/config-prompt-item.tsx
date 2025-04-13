@@ -34,7 +34,7 @@ type Props = {
     query: boolean
   }
   availableVars: any
-  availableNodes: any
+  availableNodes: any // todo-yusheng
   varList: Variable[]
   handleAddVariable: (payload: any) => void
   modelConfig?: ModelConfig

@@ -20,6 +20,7 @@ const nodeDefault: NodeDefault<VariableAssignerNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: VariableAssignerNodeType, t: any) {
     let errorMessages = ''
     const { variables, advanced_settings } = payload

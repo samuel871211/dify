@@ -114,7 +114,7 @@ const InputVarList: FC<Props> = ({
   const handleAppChange = useCallback((variable: string) => {
     return (app: {
       app_id: string
-      inputs: Record<string, any>
+      inputs: Record<string, any> // todo-yusheng
       files?: any[]
     }) => {
       const newValue = produce(value, (draft: ToolVarInputs) => {

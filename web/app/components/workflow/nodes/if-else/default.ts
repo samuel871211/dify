@@ -34,6 +34,7 @@ const nodeDefault: NodeDefault<IfElseNodeType> = {
     const nodes = isChatMode ? ALL_CHAT_AVAILABLE_BLOCKS : ALL_COMPLETION_AVAILABLE_BLOCKS
     return nodes
   },
+  // todo-yusheng
   checkValid(payload: IfElseNodeType, t: any) {
     let errorMessages = ''
     const { cases } = payload

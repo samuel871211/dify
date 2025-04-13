@@ -18,6 +18,7 @@ import { InstallPluginButton } from '@/app/components/workflow/nodes/_base/compo
 import { SwitchPluginVersion } from '@/app/components/workflow/nodes/_base/components/switch-plugin-version'
 import cn from '@/utils/classnames'
 
+// todo-yusheng
 type Props = {
   icon?: any
   providerName?: string

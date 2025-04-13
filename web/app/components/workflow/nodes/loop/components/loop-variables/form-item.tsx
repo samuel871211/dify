@@ -49,7 +49,7 @@ const arrayObjectPlaceholder = `#  example
 type FormItemProps = {
   nodeId: string
   item: LoopVariable
-  onChange: (value: any) => void
+  onChange: (value: any) => void // todo-yusheng
 }
 const FormItem = ({
   nodeId,

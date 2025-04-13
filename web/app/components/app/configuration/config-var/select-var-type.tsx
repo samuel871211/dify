@@ -20,7 +20,7 @@ type Props = {
 type ItemProps = {
   text: string
   value: string
-  Icon?: any
+  Icon?: any // todo-yusheng
   type?: InputVarType
   onClick: (value: string) => void
 }

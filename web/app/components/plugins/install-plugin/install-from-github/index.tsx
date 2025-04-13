@@ -115,7 +115,7 @@ const InstallFromGitHub: React.FC<InstallFromGitHubProps> = ({ updatePayload, on
     setErrorMsg(message)
     setState(prevState => ({ ...prevState, step: isInstall ? InstallStepFromGitHub.installFailed : InstallStepFromGitHub.uploadFailed }))
   }
-
+  // todo-yusheng
   const handleUploaded = async (GitHubPackage: any) => {
     try {
       const icon = await getIconUrl(GitHubPackage.manifest.icon)

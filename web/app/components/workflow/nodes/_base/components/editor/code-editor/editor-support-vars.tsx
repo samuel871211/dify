@@ -38,7 +38,7 @@ const CodeEditor: FC<Props> = ({
 
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 })
 
-  // Listen for cursor position changes
+  // Listen for cursor position changes // todo-yusheng
   const handleCursorPositionChange = (event: any) => {
     const editor: any = editorRef.current
     const { position } = event

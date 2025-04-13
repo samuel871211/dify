@@ -32,7 +32,7 @@ type Props = {
     query: boolean
   }
   varList?: Variable[]
-  handleAddVariable: (payload: any) => void
+  handleAddVariable: (payload: any) => void // todo-yusheng
   modelConfig: ModelConfig
 }
 

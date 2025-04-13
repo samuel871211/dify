@@ -99,7 +99,7 @@ const Editor: FC<Props> = ({
                 }
               }
               return acc
-            }, {} as any),
+            }, {} as any), // todo-yusheng
           }}
           onChange={onChange}
           editable={!readOnly}

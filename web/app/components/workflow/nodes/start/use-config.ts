@@ -39,7 +39,7 @@ const useConfig = (id: string, payload: StartNodeType) => {
       }
     }
 
-    const newInputs = produce(inputs, (draft: any) => {
+    const newInputs = produce(inputs, (draft: any) => { // todo-yusheng
       draft.variables = newList
     })
     setInputs(newInputs)

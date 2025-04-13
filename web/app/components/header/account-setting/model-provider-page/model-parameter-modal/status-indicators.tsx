@@ -4,6 +4,7 @@ import { SwitchPluginVersion } from '@/app/components/workflow/nodes/_base/compo
 import { useInstalledPluginList } from '@/service/use-plugins'
 import { RiErrorWarningFill } from '@remixicon/react'
 
+// todo-yusheng
 type StatusIndicatorsProps = {
   needsConfiguration: boolean
   modelProvider: boolean

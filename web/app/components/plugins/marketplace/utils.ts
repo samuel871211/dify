@@ -16,7 +16,7 @@ export const getPluginIconInMarketplace = (plugin: Plugin) => {
     return `${MARKETPLACE_API_PREFIX}/bundles/${plugin.org}/${plugin.name}/icon`
   return `${MARKETPLACE_API_PREFIX}/plugins/${plugin.org}/${plugin.name}/icon`
 }
-
+// todo-yusheng
 export const getFormattedPlugin = (bundle: any) => {
   if (bundle.type === 'bundle') {
     return {

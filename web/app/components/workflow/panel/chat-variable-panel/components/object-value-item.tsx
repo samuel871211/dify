@@ -11,7 +11,7 @@ import { ChatVarType } from '@/app/components/workflow/panel/chat-variable-panel
 
 type Props = {
   index: number
-  list: any[]
+  list: any[] // todo-yusheng
   onChange: (list: any[]) => void
 }
 

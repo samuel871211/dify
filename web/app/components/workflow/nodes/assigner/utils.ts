@@ -65,7 +65,7 @@ const convertOldWriteMode = (oldMode: string): WriteMode => {
       return WriteMode.overwrite
   }
 }
-
+// todo-yusheng
 export const convertV1ToV2 = (payload: any): AssignerNodeType => {
   if (payload.version === '2' && payload.items)
     return payload as AssignerNodeType

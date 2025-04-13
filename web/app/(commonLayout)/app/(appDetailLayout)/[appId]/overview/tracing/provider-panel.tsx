@@ -16,7 +16,7 @@ type Props = {
   type: TracingProvider
   readOnly: boolean
   isChosen: boolean
-  config: any
+  config: any // todo-yusheng
   onChoose: () => void
   hasConfigured: boolean
   onConfig: () => void

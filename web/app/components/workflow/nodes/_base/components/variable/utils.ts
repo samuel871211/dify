@@ -54,7 +54,7 @@ const inputVarTypeToVarType = (type: InputVarType): VarType => {
     [InputVarType.number]: VarType.number,
     [InputVarType.singleFile]: VarType.file,
     [InputVarType.multiFiles]: VarType.arrayFile,
-  } as any)[type] || VarType.string
+  } as any)[type] || VarType.string // todo-yusheng
 }
 
 const structTypeToVarType = (type: Type): VarType => {

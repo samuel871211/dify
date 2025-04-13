@@ -87,7 +87,7 @@ const VarGroupItem: FC<Props> = ({
     setTrue: setEditGroupName,
     setFalse: setNotEditGroupName,
   }] = useBoolean(false)
-
+  // todo-yusheng
   const handleGroupNameChange = useCallback((e: ChangeEvent<any>) => {
     const value = e.target.value
     const { isValid, errorKey, errorMessageKey } = checkKeys([value], false)

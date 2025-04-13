@@ -4,6 +4,7 @@ import { compareVersion, getLatestVersion } from '@/utils/semver'
 import type { GitHubRepoReleaseResponse } from '../types'
 import { GITHUB_ACCESS_TOKEN } from '@/config'
 
+// todo-yusheng
 const formatReleases = (releases: any) => {
   return releases.map((release: any) => ({
     tag_name: release.tag_name,

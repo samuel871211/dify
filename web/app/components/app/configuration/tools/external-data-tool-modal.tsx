@@ -69,6 +69,7 @@ const ExternalDataToolModal: FC<ExternalDataToolModalProps> = ({
   const currentProvider = providers.find(provider => provider.key === localeData.type)
 
   const handleDataTypeChange = (type: string) => {
+    // todo-yusheng
     let config: undefined | Record<string, any>
     const currProvider = providers.find(provider => provider.key === type)
 

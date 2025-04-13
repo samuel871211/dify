@@ -41,6 +41,7 @@ const StrategyDetail: FC<Props> = ({
   const getValueFromI18nObject = useRenderI18nObject()
   const { t } = useTranslation()
 
+  // todo-yusheng
   const outputSchema = useMemo(() => {
     const res: any[] = []
     if (!detail.output_schema)

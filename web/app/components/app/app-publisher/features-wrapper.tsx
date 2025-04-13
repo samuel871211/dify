@@ -13,7 +13,7 @@ import { SupportUploadFileTypes } from '@/app/components/workflow/types'
 
 type Props = Omit<AppPublisherProps, 'onPublish'> & {
   onPublish?: (modelAndParameter?: ModelAndParameter, features?: any) => Promise<any> | any
-  publishedConfig?: any
+  publishedConfig?: any // todo-yusheng
   resetAppConfig?: () => void
 }
 

@@ -66,7 +66,7 @@ type Props = {
   editionType?: EditionType
   onEditionTypeChange?: (editionType: EditionType) => void
   varList?: Variable[]
-  handleAddVariable?: (payload: any) => void
+  handleAddVariable?: (payload: any) => void // todo-yusheng
   containerBackgroundClassName?: string
   gradientBorder?: boolean
   titleTooltip?: ReactNode
